@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 export const StyledModalTech = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -9,11 +12,8 @@ export const StyledModalTech = styled.div`
   left: 0;
 
   > div {
-    position: fixed;
     width: 369px;
     height: 342px;
-    left: 35%;
-    top: 24%;
 
     border-radius: 4px;
   }
@@ -89,10 +89,7 @@ export const StyledModalTech = styled.div`
   }
 
   > div > form > input {
-    padding: 0px 16.2426px;
-    gap: 10.15px;
-
-    width: 90%;
+    width: 98.3%;
     height: 48px;
 
     background: #343b41;
@@ -173,5 +170,19 @@ export const StyledModalTech = styled.div`
   button:hover {
     opacity: 75%;
     cursor: pointer;
+  }
+
+  @media (max-width: 400px) {
+    > div {
+      width: 95vw;
+    }
+    @media (max-width: 315px) {
+      > div {
+        height: 57%;
+      }
+      > div > form > div {
+        flex-direction: column;
+      }
+    }
   }
 `;

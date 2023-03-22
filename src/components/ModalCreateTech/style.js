@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 export const StyledModalCreate = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -9,11 +12,8 @@ export const StyledModalCreate = styled.div`
   left: 0;
 
   > div {
-    position: fixed;
-    width: 369px;
+    width: 420px;
     height: 342px;
-    left: 35%;
-    top: 24%;
 
     border-radius: 4px;
   }
@@ -59,7 +59,7 @@ export const StyledModalCreate = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 16px 12px 0 12px;
+    padding: 16px 12px;
     gap: 2px;
 
     max-width: 100%;
@@ -89,10 +89,8 @@ export const StyledModalCreate = styled.div`
   }
 
   > div > form > input {
-    padding: 0px 16.2426px;
-    gap: 10.15px;
-
-    width: 90%;
+    width: 98.2%;
+    max-width: 100%;
     height: 48px;
 
     background: #343b41;
@@ -141,5 +139,18 @@ export const StyledModalCreate = styled.div`
 
   > div > form > button:hover {
     opacity: 75%;
+  }
+
+  @media (max-width: 590px) {
+    > div {
+      width: 70vw;
+    }
+
+    @media (max-width: 420px) {
+      > div {
+        left: 0;
+        width: 95vw;
+      }
+    }
   }
 `;
