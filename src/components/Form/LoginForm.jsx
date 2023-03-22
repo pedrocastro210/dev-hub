@@ -9,7 +9,7 @@ export function LoginForm({ register, handleSubmit, errors }) {
       <div className="email">
         <label htmlFor="email">Email</label>
         <input
-          type="text"
+          type="email"
           id="email"
           placeholder="Digite aqui seu e-mail..."
           {...register("email")}
