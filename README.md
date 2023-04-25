@@ -21,7 +21,7 @@ O Dev Hub permite que os usuários cadastrem suas tecnologias, especificando o n
 A interface gráfica é responsiva e moderna, facilitando a navegação e o uso da aplicação. O uso de validação de dados nos formulários garante que o usuário insira informações corretas e completas, além de tornar a interação mais agradável.
 
 ## Como usar
-Para utilizar o Dev Hub, é necessário acessar esse link: <a href="https://https://dev-hub-mu.vercel.app/home">Dev Hub</a>
+Para utilizar o Dev Hub, é necessário acessar esse link: <a href="https://dev-hub-mu.vercel.app/home">Dev Hub</a>
 
 #### Usúario para teste: 
 Email: johndoe@email.com
